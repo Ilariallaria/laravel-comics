@@ -1,8 +1,8 @@
 <header>
     <div class="header_top">
         <div class="cont_header_top">
-            <span><a href="">Link1</a></span>
-            <span><a href="">Link2</a></span>
+            <span><a href="">DC POWER VISA &#174;</a></span>
+            <span><a href="">ADDITIONAL DC SITES &#x7dc;</a></span>
         </div>
     
     </div>

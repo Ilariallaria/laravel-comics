@@ -37,4 +37,45 @@ main{
         }
 
     }
+
+    .products{
+        height: 110px;
+        background-color: #0084f9;
+      
+          .container{
+          margin: 0 auto;
+          width: 70%;
+          height: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: white;
+      
+            div{
+              display: flex;
+              align-items: center;
+      
+              img{
+              width: auto;
+              height: 35px;
+              display: inline;
+      
+              }
+      
+              &:last-child img{
+                  height: 25px;
+              }
+      
+              span{
+                padding-left: 10px;
+                font-size: 9px;
+              }
+            
+      
+            }
+      
+          }
+      
+      
+        }
 }

@@ -116,3 +116,32 @@ main .container .card-wrapper .single-title {
   text-transform: uppercase;
   margin-top: 10px;
 }
+main .products {
+  height: 110px;
+  background-color: #0084f9;
+}
+main .products .container {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+main .products .container div {
+  display: flex;
+  align-items: center;
+}
+main .products .container div img {
+  width: auto;
+  height: 35px;
+  display: inline;
+}
+main .products .container div:last-child img {
+  height: 25px;
+}
+main .products .container div span {
+  padding-left: 10px;
+  font-size: 9px;
+}
