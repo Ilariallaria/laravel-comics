@@ -1,0 +1,40 @@
+main{
+    background-color: black;
+    color: white;
+
+    .container{
+        margin: 0 auto;
+        width: 70%;
+        height: 100%;
+
+        .all-card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        .card-wrapper{
+            width: calc((100% / 6) - 20px);
+            margin: 10px;
+    
+    
+            .single-card{
+                // background-color: lightgreen;
+                object-fit: cover;
+                object-position: top;
+                width: 100%;
+                aspect-ratio: 1/1;
+                overflow-y: hidden;
+                
+            }
+    
+            .single-title{
+                width: 130px;
+                font-size: 10px;
+                text-transform: uppercase;
+                margin-top: 10px
+            }
+        }
+
+    }
+}
